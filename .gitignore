@@ -1,0 +1,8 @@
+# dep
+/pkg
+/bin
+
+# vendor
+/src/github.com
+/src/api/vendor
+
