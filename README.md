@@ -11,6 +11,15 @@ docker run --rm -it -v ${PWD}:/go --workdir /go/src/api golang:1.12 go get -u gi
 docker run --rm -it -v ${PWD}:/go --workdir /go/src/api golang:1.12 dep ensure
 ```
 
+```
+docker-compose up -d
+```
+
+```
+http://localhost:8000/people
+```
+
+
 ## Memo
 
 ### Install gorilla/mux
