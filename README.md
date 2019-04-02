@@ -22,7 +22,7 @@ http://localhost:8000/people
 
 ## Memo
 
-### Install gorilla/mux
+### Initialize dep
 
 ```
 docker run --rm -it -v ${PWD}:/go --workdir /go/src/api golang:1.12 dep init
